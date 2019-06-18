@@ -11,6 +11,18 @@ coseno(){
 	cin>>n;
 	c=cos(n);
 	cout<<c<<endl;
+	return (0);
+}
+
+int arcocoseno();
+arcocoseno(){
+	int n;
+	double c;
+	cout<<"Ingresa el nuemro."<<endl;
+	cin>>n;
+	c=acos(n);
+	cout<<c<<endl;
+	return (0);
 }
 int main(){
 	int op=1,n,o;
@@ -40,7 +52,7 @@ int main(){
 				
 				break;
 			case 5:
-				
+				arcocoseno();
 				break;
 			case 6:
 				
